@@ -21,13 +21,16 @@ public class Main{
          */
 
         int age = 0;
-        String name = "Govind Dwivedi";
+//        String name = "Govind Dwivedi";
+        String firstName = "Govind";
+        String lastName = "Dwivedi";
+        String fullName = firstName + " " + lastName;
         float marks = 63.325f;
         char grade = 'B';
 
 
 
-        System.out.println("My name is:- " + name);
+        System.out.println("My name is:- " + fullName);
         System.out.println("My age is:- " + age);
         System.out.println("My marks is:- " + marks);
         System.out.println("My grade is:- " + grade);
