@@ -20,19 +20,43 @@ public class Main{
          Comments
          */
 
-        int age = 0;
-//        String name = "Govind Dwivedi";
-        String firstName = "Govind";
-        String lastName = "Dwivedi";
-        String fullName = firstName + " " + lastName;
-        float marks = 63.325f;
-        char grade = 'B';
+//        int age = 29;
+////        String name = "Govind Dwivedi";
+//        String firstName = "Govind";
+//        String lastName = "Dwivedi";
+//        String fullName = firstName + " " + lastName;
+//        float marks = 63.325f;
+//        char grade = 'B';
+//
+//
+//
+//        System.out.println("My name is:- " + fullName);
+//        System.out.println("My age is:- " + age);
+//        System.out.println("My marks is:- " + marks);
+//        System.out.println("My grade is:- " + grade);
+
+        //Range of Data types
+        //int - 4bytes = 1byte = 8bits = 1bit = 0, 1
+        //int - 4bytes = 2 power 32 = 4294967296 = -2,147,483,648 0 2,147,483,647
+        //long - 8bytes = 2 power 64 = 18446744073709551616
+        //char - 1byte = -128 0 127
+        //boolean - 1bits = true, false
 
 
+//        double radius = 2.56f; // float = 4bytes, double = 8bytes
+//        int area = (int) (3.14159f * radius * radius); // Manual typecasting.
+//
+//        float area1 = (float) (3.14159f * radius * radius);
+//
+//        System.out.println(area);
+//        System.out.println(area1);
 
-        System.out.println("My name is:- " + fullName);
-        System.out.println("My age is:- " + age);
-        System.out.println("My marks is:- " + marks);
-        System.out.println("My grade is:- " + grade);
+        //Automatic type casting
+//        float radius1 = 3.65f;
+//        double area3 = 3.14159f * radius1 * radius1;
+//        System.out.println(area3);
+
+        long num1 = 56;
+        System.out.println(num1);
     }
 }
