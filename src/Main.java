@@ -1,7 +1,6 @@
-public class Main{
-    //Class is the way of grouping methods and variables.
-    //public - access modifier
+class Main{
     public static void main(String[] args) {
+        //functions, methods = methods are declared in class
         //Variables
         //datatype- What kind of data is going to be stored.
         //int - stores integer values. - 1, 2, 5
@@ -21,7 +20,7 @@ public class Main{
          */
 
 //        int age = 29;
-////        String name = "Govind Dwivedi";
+//        String name = "Govind Dwivedi";
 //        String firstName = "Govind";
 //        String lastName = "Dwivedi";
 //        String fullName = firstName + " " + lastName;
@@ -52,9 +51,6 @@ public class Main{
 //        System.out.println(area1);
 
         //Automatic type casting
-//        float radius1 = 3.65f;
-//        double area3 = 3.14159f * radius1 * radius1;
-//        System.out.println(area3);
 
         long num1 = 56;
         System.out.println(num1);
