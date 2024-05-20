@@ -52,7 +52,16 @@ class Main{
 
         //Automatic type casting
 
-        long num1 = 56;
-        System.out.println(num1);
+//        long num1 = 56;
+//        System.out.println(num1);
+
+
+        int a = 5;
+        int b = 10;
+        System.out.println(a + " " + b);
+        int c = a;
+        a = b;
+        b = c;
+        System.out.println(a + " " + b);
     }
 }
